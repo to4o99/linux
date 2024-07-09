@@ -2,4 +2,4 @@
 
 # Must have apts
 
-sudo apt install git wget curl neofetch
+sudo apt install wget curl neofetch
