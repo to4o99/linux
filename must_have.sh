@@ -1,5 +1,5 @@
 #!/bin/bash
 
-# Must have apts
+# Must have apts Test 
 
 sudo apt install wget curl neofetch
