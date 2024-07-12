@@ -2,9 +2,9 @@
 
 # default
 # PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
-
+PROMPT_COMMAND='PS1_CMD1=$(git branch --show-current 2>/dev/null)'; PS1='\u@\h:\w ${PS1_CMD1}\n\$ '
 # simple
-PS1='\[\e[38;5;40m\]-> \[\e[0m\]'
+# PS1='\[\e[38;5;40m\]-> \[\e[0m\]'
 
 # normal
 # PS1='\[\e[91m\]\u\[\e[0m\] in \[\e[96m\]\w\n\[\e[38;5;40m\]>\[\e[0m\] '
