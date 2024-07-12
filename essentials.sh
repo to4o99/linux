@@ -4,4 +4,6 @@
 
 sudo apt install wget curl neofetch
 
+vi /etc/default/grub
+
 neofetch
