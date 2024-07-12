@@ -1,4 +1,5 @@
 sudo apt install \
+    lightdm lightdm-settings \
     dunst \
     i3 \
     i3lock-fancy \
