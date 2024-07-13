@@ -1,3 +1,3 @@
-sudo apt install xorg i3 dunst suckless-tools compton hsetroot rxvt-unicode xsel rofi fonts-noto fonts-mplus xsettingsd lxappearance scrot viewnior alacritty
+sudo apt install xorg i3-wm dunst alacritty picom polybar qt5ct ranger rofi
 
-git clone https://github.com/addy-dclxvi/i3-starterpack.git && cp -a i3-starterpack/. ~
+git clone https://github.com/lasercata/Dotfiles.git
