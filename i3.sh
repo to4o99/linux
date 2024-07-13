@@ -1,3 +1,4 @@
-sudo apt install xorg i3-wm dunst alacritty picom polybar qt5ct ranger rofi
-
-git clone https://github.com/lasercata/Dotfiles.git
+git clone https://github.com/DebianFanboy/debian-i3gaps-from-scratch.git
+cd debian-i3gaps-from-scratch
+chmod +x run.sh
+./run.sh
