@@ -1,4 +1,5 @@
 sudo apt install \
+    xorg \
     lightdm lightdm-settings \
     dunst \
     i3 \
@@ -19,3 +20,5 @@ sudo apt install \
 git clone --depth=1 https://github.com/cizordj/i3-themer.git
 cd i3-themer/
 ./i3-themer -a 013
+
+sudo reboot
