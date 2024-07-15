@@ -1,7 +1,5 @@
-sudo apt install xorg i3 polybar dunst picom rofi alacritty
+sudo apt install xinit i3
 
-wget -P ~/.local/share/fonts https://github.com/ryanoasis/nerd-fonts/releases/download/v3.0.2/JetBrainsMono.zip \
-&& cd ~/.local/share/fonts \
-&& unzip JetBrainsMono.zip \
-&& rm JetBrainsMono.zip \
-&& fc-cache -fv
+echo "startx" >> ~/.profile
+
+sudo reboot
