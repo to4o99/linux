@@ -15,3 +15,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
 exec bash
 
 nvm install node
+
+# Install Laravel
+/bin/bash -c "$(curl -fsSL https://php.new/install/linux)"
