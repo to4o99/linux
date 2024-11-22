@@ -1,5 +1,5 @@
 # Install PHP
-sudo apt install openssl php-bcmath php-curl php-json php-mbstring php-mysql php-tokenizer php-xml php-zip php-sqlite3
+sudo apt install openssl php-bcmath php-curl php-json php-mbstring php-mysql php-tokenizer php-xml php-zip php-sqlite3 php-intl
 
 # Install Composer
 php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
