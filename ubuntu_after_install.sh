@@ -51,6 +51,7 @@ fc-cache -fv
 # install starship
 curl -sS https://starship.rs/install.sh | sh
 
-echo "/n eval "$(starship init bash)"" >> ~/.bashrc
+echo '' >> ~/.bashrc
+echo 'eval "$(starship init bash)"' >> ~/.bashrc
 
 source ~/.bashrc
