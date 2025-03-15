@@ -5,6 +5,9 @@ sudo apt update && sudo apt upgrade
 # Must have apts 
 sudo apt install wget curl zip unzip
 
+# Apts for Ubuntu
+sudo apt install gnome-tweaks gnome-shell-extension-manager
+
 # install a nerd font
 declare -a fonts=(
     #BitstreamVeraSansMono
