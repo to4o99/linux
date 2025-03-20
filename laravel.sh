@@ -9,10 +9,10 @@ php -r "unlink('composer-setup.php');"
 
 sudo mv composer.phar /usr/local/bin/composer
 
-# Install node js with nvm for npm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.5/install.sh | bash
-
-exec bash
+# Install node.js with nvm for npm
+git clone https://github.com/nvm-sh/nvm.git
+chmod +x nvm/install.sh
+./nvm/install.sh
 
 nvm install node
 
